@@ -1,0 +1,153 @@
+/* Basic Class for all buttons */
+.st{
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  border-radius: 5px;
+  border: 1px solid #757575;
+  text-decoration: none;
+  padding: 5px;
+  cursor:pointer;
+  outline: 0;
+}
+
+/* Button Sizes */
+.st-large{
+  font-size: 150%;
+}
+.st-small{
+  font-size: 70%;
+}
+.st-x-small{
+  font-size: 50%;
+}
+.st-xl{
+  font-size: 200%;
+}
+
+/* Colors */
+.st-green{
+  background-color: #2E7D32;
+  color: #fafafa;
+}
+.st-green:hover {
+  background-color: #33691E;
+}
+
+.st-dark-green{
+  background-color: #00695C;
+  color: #fafafa;
+}
+.st-dark-green:hover {
+  background-color: #004D40;
+}
+
+.st-red{
+  background-color: #c62828;
+  color: #fafafa;
+}
+.st-red:hover {
+  background-color: #b71c1c;
+}
+
+.st-blue {
+  background-color: #0277BD;
+  color: #fafafa;
+}
+.st-blue:hover {
+  background-color: #01579B;
+}
+
+.st-dark-blue {
+  background-color: #1565C0;
+  color: #fafafa;
+}
+.st-dark-blue:hover {
+  background-color: #0D47A1;
+}
+
+.st-yellow {
+  background-color: #F9A825;
+  color: #fafafa;
+}
+.st-yellow:hover {
+  background-color: #F57F17;
+}
+
+.st-cyan {
+  background-color: #00838F;
+  color: #fafafa;
+}
+.st-cyan:hover {
+  background-color: #006064;
+}
+
+.st-pink {
+  background-color: #AD1457;
+  color: #fafafa;
+}
+.st-pink:hover {
+  background-color: #880E4F;
+}
+
+.st-purple {
+  background-color: #4527A0;
+  color: #fafafa;
+}
+.st-purple:hover {
+    background-color: #311B92;
+}
+
+.st-white {
+  background-color: #fafafa;
+  color: #424242;
+}
+.st-white:hover {
+  background-color: #BDBDBD;
+}
+
+.st-black{
+  background-color: #212121;
+  color: #fafafa;
+}
+.st-black:hover {
+  background-color: #424242;
+}
+/* Shapes */
+.st-no-curve {
+  border-radius: 0 !important;
+}
+
+/* Features */
+.st-success{
+  background-color: #689F38;
+  color: #fafafa;
+  font-weight: bold;
+}
+.st-success:hover {
+  background-color: #558B2F;
+}
+
+.st-danger{
+  background-color: #d32f2f;
+  color: #fafafa;
+  font-weight: bold;
+}
+.st-danger:hover {
+  background-color: #c62828;
+}
+
+.st-warning{
+  background-color: #F57C00;
+  color: #fafafa;
+  font-weight: bold;
+}
+.st-warning:hover {
+  background-color: #EF6C00;
+}
+
+/* conditions */
+.st-disabled,
+a:disabled,
+button:disabled {
+  cursor: not-allowed;
+  background-color: #BDBDBD;
+}
